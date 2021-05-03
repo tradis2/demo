@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    username: root
+    password: 520lh0420
+    url: jdbc:mysql://127.0.0.1:3306/demo?severTimezone=GMT%2B8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+
+
+mybatis:
+  #映射配置文件路径
+  mapper-locations: classpath:mybatis/*.xml
+
